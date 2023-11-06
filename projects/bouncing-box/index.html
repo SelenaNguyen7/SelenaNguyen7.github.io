@@ -8,7 +8,8 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJbiaAAEOSwn53XDrMmu2VKo0UunDNEhR6Q&usqp=CAU");
+			background-size:cover;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -19,6 +20,7 @@
 		}
 		.board{
 			height: 100vh;
+			background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9jTD9j40EIbjiS9omPBYzju2ctB6x_5GkA&usqp=CAU");
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -79,7 +81,7 @@
 			*/
 			function update() {
 				positionX = positionX + speedX;
-				positionY = positionY + speedY
+				positionY = positionY + speedY;
 				moveBoxTo(positionX, positionY);
 			
 			if (positionX > boardWidth) {
